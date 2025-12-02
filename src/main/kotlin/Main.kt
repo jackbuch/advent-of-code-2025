@@ -1,5 +1,9 @@
 package com.github.jackbuch.aoc2025
 
 fun main() {
-    Day1.solve()
+    val days = listOf(
+        Day1,
+        Day2
+    )
+    days.last().solve()
 }
